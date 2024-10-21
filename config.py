@@ -10,38 +10,38 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7928768731:AAELaOLGKNl0U_CUGliBoWK5qTWcxcDs4AE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7630632026:AAE5WK45cHtkjQEXv-u2wYibd6tjuwFZRUY")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "23702904"))
+APP_ID = int(os.environ.get("APP_ID", "22215048"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "e67f2061769a4d4a44dca1781f9bb619")
+API_HASH = os.environ.get("API_HASH", "ed6b5f4819836d31defb5a747a1950ce")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002194445419"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002431384606"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6358850593"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7846069816"))
 
 #Port
-PORT = os.environ.get("PORT", "8033")
+PORT = os.environ.get("PORT", "8034")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.ydfm3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://wtflinksofficial:wtflinksofficial@cluster0.1vvgr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "wtflinksofficial")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002455587722"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002329123808"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002339107487"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002399758339"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using me Join Now: @Nottyleak 🍒.\n\n")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} , Thanks for using Me 🍑\n\n")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "6992533662").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
