@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
                 await msg.copy(chat_id=message.from_user.id, caption=caption, parse_mode=ParseMode.HTML, reply_markup=reply_markup, protect_content=PROTECT_CONTENT)
             except:
                 pass
-        await message.reply_text(f"<b> ‼️ Forward the Files to Saved Messages or somewhere else before Downloading it.\n\nIt will get Delete after 30 minutes‼️</b>")
+        await message.reply_text(f"<b>‼️𝖨𝗍 𝗐𝗂𝗅𝗅 𝗀𝖾𝗍 𝖣𝖾𝗅𝖾𝗍𝖾 𝖺𝖿𝗍𝖾𝗋 𝟥𝟢 𝗆𝗂𝗇𝗎𝗍𝖾𝗌‼️</𝖻>\n\n ♻️ 𝖨𝖿 𝗒𝗈𝗎 𝗐𝖺𝗇𝗍 𝗍𝗈 𝖦𝖾𝗍 𝗉𝗋𝖾𝗆𝗂𝗎𝗆 𝖴𝗇𝗌𝖾𝖾𝗇 𝗏𝗂𝖽𝖾𝗈𝗌 𝗆𝖾𝗌𝗌𝖺𝗀𝖾 𝗆𝖾 @Zenotty.")
         return
     else:
         reply_markup = InlineKeyboardMarkup(
